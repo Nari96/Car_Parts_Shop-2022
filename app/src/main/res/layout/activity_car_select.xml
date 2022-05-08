@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarSelectActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/carSelectInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Válassza ki gépjárműve megfelelő gyártmányát az autóalkatrészek megtalálásához!"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Spinner
+        android:id="@+id/carBrandSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carSelectInfoTextView"
+        app:layout_constraintVertical_bias="0.061"
+        tools:layout_editor_absoluteX="26dp"
+        />
+    <Spinner
+        android:id="@+id/carTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carBrandSpinner"
+        app:layout_constraintVertical_bias="0.061"
+        tools:layout_editor_absoluteX="26dp"
+        />
+    <Spinner
+        android:id="@+id/partTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carTypeSpinner"
+        app:layout_constraintVertical_bias="0.061"
+        tools:layout_editor_absoluteX="26dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/partTypeSpinner"
+        app:layout_constraintVertical_bias="0.063">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="searchPart"
+            android:text="Keresés"
+            android:backgroundTint="@color/custom_red"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:onClick="cancel"
+            android:text="@string/Cancel"
+            android:backgroundTint="@color/custom_red"/>
+
+        >
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

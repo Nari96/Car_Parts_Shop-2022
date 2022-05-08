@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1085224892537",
+    "project_id": "androidcarpartsshop",
+    "storage_bucket": "androidcarpartsshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085224892537:android:b9e98631e3c105ec74bca8",
+        "android_client_info": {
+          "package_name": "com.example.carpartsshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085224892537-34rh4sv187ug5di6eof5dq35e4hofith.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carpartsshop",
+            "certificate_hash": "38c4d5b3df79b10d7f32aba6c493bab897aaad09"
+          }
+        },
+        {
+          "client_id": "1085224892537-8n7cudsohjb7rrmamsqelsb490mfg69o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ0_EmXcA3P7EeY5WMJMV8tCMhwgbZxr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085224892537-8n7cudsohjb7rrmamsqelsb490mfg69o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Prod_code_search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search"
+        android:title="@string/prodCode"
+        app:actionViewClass="android.widget.SearchView">
+    </item>
+    <item
+        android:id="@+id/cart"
+        app:showAsAction="always"
+        android:title="Cart"
+        android:icon="@drawable/ic_shopping_cart"
+        app:actionLayout="@layout/custom_menu_item">
+    </item>
+    <item
+        android:id="@+id/logOut"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_logout"
+        android:title="Kijelentkezés">
+    </item>
+
+</menu>

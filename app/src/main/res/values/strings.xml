@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Car Parts Shop</string>
+    <string name="name">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="email_address">Email cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="Cancel">Mégse</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="address">Cím</string>
+    <string-array name="carBrand">
+        <item>Alfa Romeo</item>
+        <item>Bmw</item>
+        <item>Ford</item>
+        <item>Audi</item>
+        <item>Dacia</item>
+        <item>Honda</item>
+    </string-array>
+    <string-array name="alfaRomeoType">
+        <item>147</item>
+        <item>156</item>
+        <item>Giulia</item>
+        <item>Mito</item>
+    </string-array>
+    <string-array name="bmwType">
+        <item>E36</item>
+        <item>E39</item>
+        <item>E46</item>
+        <item>E90</item>
+    </string-array>
+    <string-array name="fordType">
+        <item>Mondeo</item>
+        <item>Fiesta</item>
+        <item>Focus</item>
+        <item>Ka</item>
+    </string-array>
+    <string-array name="audiType">
+        <item>A1</item>
+        <item>A4</item>
+        <item>A6</item>
+        <item>A8</item>
+    </string-array>
+    <string-array name="daciaType">
+        <item>Dokker</item>
+        <item>Duster</item>
+        <item>Logan</item>
+        <item>Sandero</item>
+    </string-array>
+    <string-array name="hondaType">
+        <item>Accord</item>
+        <item>Civic</item>
+        <item>CRX</item>
+        <item>Legend</item>
+    </string-array>
+    <string-array name="partType">
+        <item>Felfüggesztés</item>
+        <item>Fék</item>
+        <item>Motor</item>
+        <item>Kipufogó</item>
+    </string-array>
+
+
+    ////String database
+
+    <string-array name="Alfa_147_suspension_name">
+        <item>Lengőkar</item>
+        <item>Lengéscsillapító</item>
+        <item>Szilent készlet</item>
+    </string-array>
+    <string-array name="Alfa_147_suspension_info">
+        <item>Cikkszám:10001</item>
+        <item>Cikkszám:10002</item>
+        <item>Cikkszám:10003</item>
+    </string-array>
+    <string-array name="Alfa_147_suspension_price">
+        <item>95600Ft</item>
+        <item>89000Ft</item>
+        <item>150000Ft</item>
+    </string-array>
+    <array name="Alfa_147_suspension_pictureRes">
+        <item>@drawable/alpha147susp1</item>
+        <item>@drawable/alpha147susp2</item>
+        <item>@drawable/alpha147susp3</item>
+    </array>
+
+    <string-array name="Alfa_147_brake_name">
+        <item>Féktárcsa</item>
+        <item>Fékbetét</item>
+        <item>Féknyereg</item>
+    </string-array>
+    <string-array name="Alfa_147_brake_info">
+        <item>Cikkszám:10004</item>
+        <item>Cikkszám:10005</item>
+        <item>Cikkszám:10006</item>
+    </string-array>
+    <string-array name="Alfa_147_brake_price">
+        <item>13540Ft</item>
+        <item>8670Ft</item>
+        <item>35600Ft</item>
+    </string-array>
+    <array name="Alfa_147_brake_pictureRes">
+        <item>@drawable/alfa147brake1</item>
+        <item>@drawable/alfa147brake2</item>
+        <item>@drawable/alfa147brake3</item>
+    </array>
+
+    <string-array name="Alfa_147_motor_name">
+        <item>Önindító</item>
+        <item>Vezérműszíj</item>
+        <item>Generátor</item>
+    </string-array>
+    <string-array name="Alfa_147_motor_info">
+        <item>Cikkszám:10007</item>
+        <item>Cikkszám:10008</item>
+        <item>Cikkszám:10009</item>
+    </string-array>
+    <string-array name="Alfa_147_motor_price">
+        <item>45000Ft</item>
+        <item>96500Ft</item>
+        <item></item>
+    </string-array>
+    <array name="Alfa_147_motor_pictureRes">
+        <item>@drawable/alfa147mot1</item>
+        <item>@drawable/alfa147mot2</item>
+        <item>@drawable/alfa147mot3</item>
+    </array>
+
+    <string-array name="Alfa_147_exhaust_name">
+        <item>Kipufogó végdob</item>
+        <item>Leömlő</item>
+    </string-array>
+    <string-array name="Alfa_147_exhaust_info">
+        <item>Cikkszám:10010</item>
+        <item>Cikkszám:10011</item>
+
+    </string-array>
+    <string-array name="Alfa_147_exhaust_price">
+        <item>25600FT</item>
+        <item>34600Ft</item>
+
+    </string-array>
+    <array name="Alfa_147_exhaust_pictureRes">
+        <item>@drawable/alfa147exhaust1</item>
+        <item>@drawable/alfa147exhaust2</item>
+    </array>
+
+
+
+    <string-array name="null_name">
+        <item>Átmeneti készlethiány</item>
+    </string-array>
+
+    <string-array name="null_info">
+        <item>Keresse fel a webshopunkat később</item>
+
+    </string-array>
+    <string-array name="null_price">
+        <item>0FT</item>
+    </string-array>
+    <array name="null_pictureRes">
+        <item>@drawable/ic_baseline_close</item>
+    </array>
+
+    <string name="title_activity_shop">ShopActivity</string>
+
+    <string name="registration_succesfull">Sikeres regisztráció</string>
+    <string name="registration_fail">Regisztráció sikertelen! Próbálja újra.</string>
+    <string name="two_password_not_same">Nem egyezik a két jelszó</string>
+    <string name="fill_all_data">Minden adatmező kitöltése kötelző</string>
+    <string name="login_fail">Bejelentkezés sikertelen,</string>
+    <string name="partName_title">Alkatrésznév</string>
+    <string name="informations">Infók</string>
+    <string name="prodCode">Cikkszám</string>
+    <string name="welcome">Üdvözöljük!</string>
+
+
+</resources>
